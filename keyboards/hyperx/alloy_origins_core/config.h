@@ -13,6 +13,8 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+#define MATRIX_ROWS 8
+#define MATRIX_COLS 12
 
 //define pins for MX25L4006e flash chip
 #define EXTERNAL_FLASH_SPI_SLAVE_SELECT_PIN A5
@@ -36,3 +38,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DRIVER_1_LED_TOTAL 44
 #define DRIVER_2_LED_TOTAL 43
 #define RGB_MATRIX_LED_COUNT (DRIVER_1_LED_TOTAL + DRIVER_2_LED_TOTAL)
+
+//openrgb stuff
+//#define OPENRGB_DIRECT_MODE_UNBUFFERED
+#define DRIVER_LED_TOTAL (DRIVER_1_LED_TOTAL + DRIVER_2_LED_TOTAL)
+#define ENABLE_RGB_MATRIX_OPENRGB_DIRECT
+#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_OPENRGB_DIRECT
+#define OPENRGB_DIRECT_MODE_STARTUP_RED 127
+#define OPENRGB_DIRECT_MODE_STARTUP_GREEN 0
+#define OPENRGB_DIRECT_MODE_STARTUP_BLUE 255

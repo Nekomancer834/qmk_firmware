@@ -1,6 +1,6 @@
 # coreorigin
 
-![coreorigin](https://imgur.com/a/7St30pv)
+![Alloy Origins Core](https://imgur.com/a/7St30pv)
 
 The HyperX Alloy Origins Core is HyperX's tkl board in their origins lineup.
 
