@@ -13,6 +13,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+#pragma once
 
 //define pins for MX25L4006e flash chip
 #define EXTERNAL_FLASH_SPI_SLAVE_SELECT_PIN A5

@@ -13,7 +13,8 @@
         "midi": false,
         "serial": false,
         "steno": false,
-        "nkro": true
+        "nkro": true,
+        "rgb_matrix": true
     },
     "matrix_pins": {
         "cols": ["B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10", "B11", "B12", "B13", "D7"],
@@ -21,11 +22,13 @@
     },
     "processor": "SN32F248BF",
     "eeprom:": {
+        "driver": "wear_leveling",
         "wear_leveling": {
+            "driver": "spi_flash",
             "backing_size": 2048
         }
     },
-    "url": "",
+    "url": "https://hyperx.com/products/hyperx-alloy-origins-core-mechanical-gaming-keyboard",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x16E6",
@@ -37,7 +40,7 @@
         "on_state": 0
     },
     "layouts": {
-        "LAYOUT": {
+        "LAYOUT_tkl_ansi": {
             "layout": [
                 
             {"matrix":[0,0], "x":0, "y":0}, 
